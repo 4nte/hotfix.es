@@ -38,7 +38,7 @@ class Layout extends React.Component {
             }}
             to={'/'}
           >
-            {title}
+              {title}
           </Link>
         </h1>
       );
@@ -57,11 +57,11 @@ class Layout extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color: 'rgb(255, 167, 196)',
+              color: 'var(--orange)',
             }}
             to={'/'}
           >
-            {title}
+              {title}
           </Link>
         </h3>
       );

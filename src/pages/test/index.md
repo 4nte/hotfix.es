@@ -1,8 +1,8 @@
 ---
-title: Test
-date: '2019-03-09'
-spoiler: Test blog post.
+title: 'Fix Like No One’s Watching'
+date: '2019-02-15'
+spoiler: The other kind of technical debt.
 ---
 
-# Test
-> Teest
+
+Blab la
