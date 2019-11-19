@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../assets/profile-pic.jpg';
+import profilePic from '../assets/profile-crop.jpg';
 import { rhythm } from '../utils/typography';
 
 class Bio extends React.Component {
@@ -24,10 +24,8 @@ class Bio extends React.Component {
         />
         <p style={{ maxWidth: 410 }}>
           {/*Personal blog by{' '}*/}
-          <a href="https://mobile.twitter.com/ante_gulin">Ante's</a> personal blog.{' '}
-            <br/>
-            I write about IoT, Web, DevOps && * else.
-            &nbsp;
+          <a href="https://mobile.twitter.com/ante_gulin">Ante's</a> personal
+          blog. <br />I write about IoT, Web, DevOps && * else. &nbsp;
         </p>
       </div>
     );

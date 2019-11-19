@@ -26,16 +26,11 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
-    let {
-      previous,
-      next,
-      slug,
-    } = this.props.pageContext;
+    let { previous, next, slug } = this.props.pageContext;
     const lang = post.fields.langKey;
 
     // Replace original links with translated when available.
     let html = post.html;
-
 
     loadFontsForCode(lang);
     // TODO: this curried function is annoying
